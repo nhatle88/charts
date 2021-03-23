@@ -28,7 +28,7 @@ folium_static(m) # call to render Folium map in Streamlit
 xaxis = go.XAxis(title='title', showticklabels=False)
 ```
 
-### 3. Update layout
+### 3. Set a position and horizontal display for legend
 ```python
 fig.update_layout(
     title="title",
