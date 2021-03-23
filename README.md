@@ -25,5 +25,5 @@ folium_static(m) # call to render Folium map in Streamlit
 
 ### 2. Hide a x-axis or y-axis labels
 ```python
-xaxis = go.XAxis(title='Time', showticklabels=False)
+xaxis = go.XAxis(title='title', showticklabels=False)
 ```
