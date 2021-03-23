@@ -27,3 +27,22 @@ folium_static(m) # call to render Folium map in Streamlit
 ```python
 xaxis = go.XAxis(title='title', showticklabels=False)
 ```
+
+### 3. Update layout
+```python
+fig.update_layout(
+    title="title",
+    xaxis_title="xasix_title",
+    width=800,
+    legend=dict(
+        font_size=12,
+        orientation="h",
+        yanchor="bottom",
+        y=1.02,
+        xanchor="right",
+        x=1
+    ),
+    paper_bgcolor='white',
+    plot_bgcolor='white',
+)
+```
